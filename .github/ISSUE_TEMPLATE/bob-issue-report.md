@@ -1,9 +1,9 @@
 ---
 name: BOB Issue Report
 about: Report an issue or bug with the BOB AI coding assistant
-title: "[BOB Issue]"
-labels: ''
-assignees: cgefflot
+title: "[BOB Issue]: "
+labels: 'bug'
+assignees: 'cgefflot'
 
 ---
 
@@ -17,8 +17,16 @@ assignees: cgefflot
 - Operating System:
 - Model Used (if known): <!-- e.g., claude-3-7-sonnet-20250219 -->
 
+## Issue Type
+<!-- Select the type of issue you're experiencing -->
+- [ ] Installation Issue
+- [ ] Functionality Issue
+- [ ] Performance Issue
+- [ ] Security Issue
+- [ ] Other (please specify):
+
 ## Mode
-<!-- Which BOB mode were you using when the issue occurred? -->
+<!-- Which BOB mode were you using when the issue occurred? Skip if installation issue -->
 - [ ] Code
 - [ ] Ask
 - [ ] Plan
@@ -26,7 +34,7 @@ assignees: cgefflot
 - [ ] Custom mode (please specify): 
 
 ## Tools Involved
-<!-- Which BOB tools were involved in the issue? Check all that apply -->
+<!-- Which BOB tools were involved in the issue? Check all that apply. Skip if installation issue -->
 - [ ] File operations (read/write)
 - [ ] Command execution
 - [ ] Browser control
@@ -34,21 +42,18 @@ assignees: cgefflot
 - [ ] Code analysis
 - [ ] Other (please specify):
 
-## Steps to Reproduce
-<!-- Detailed steps to reproduce the behavior -->
+## Installation Issues
+<!-- Complete this section ONLY if you're experiencing installation problems -->
+### Installation Method
+- [ ] VS Code Marketplace
+- [ ] Manual installation
+- [ ] Other (please specify):
+
+### Installation Steps Attempted
+<!-- Describe the steps you took to install BOB -->
 1. 
 2. 
 3. 
-4. 
 
-## Expected Behavior
-<!-- A clear and concise description of what you expected to happen -->
-
-## Actual Behavior
-<!-- What actually happened instead -->
-
-## Screenshots/Logs
-<!-- If applicable, add screenshots or logs to help explain your problem -->
-
-## Prompt Used
-<!-- If relevant, include the prompt you used when the issue occurred (redact any sensitive information) -->
+### Error Messages
+<!-- Copy and paste any error messages you received during installation -->
