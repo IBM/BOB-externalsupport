@@ -5,6 +5,7 @@ title: "[BOB Issue]: "
 labels: 'bug'
 assignees: 'cgefflot'
 
+---
 
 ## Issue Description
 <!-- A clear and concise description of the issue you're experiencing with BOB -->
