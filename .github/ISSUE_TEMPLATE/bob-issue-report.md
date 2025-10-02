@@ -1,12 +1,10 @@
-
 ---
 name: BOB Issue Report
 about: Report an issue or bug with the BOB AI coding assistant
 title: "[BOB Issue]: "
 labels: 'bug'
-assignees: ''
+assignees: 'cgefflot'
 
----
 
 ## Issue Description
 <!-- A clear and concise description of the issue you're experiencing with BOB -->
